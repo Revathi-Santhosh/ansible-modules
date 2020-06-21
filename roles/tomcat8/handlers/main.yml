@@ -1,23 +1,23 @@
 ---
-- name: To restart tomcat service
+- name: Restart Tomcat
   systemd:
     name: tomcat
     state: restarted
     daemon_reload: yes
 
-- name: To start tomcat service
+- name: Start Tomcat
   systemd:
     name: tomcat
     state: started
     daemon_reload: yes
 
-- name: To stop tomcat service
+- name: Stop Tomcat
   systemd:
     name: tomcat
     state: stopped
     daemon_reload: yes
 
-- name: To reload tomcat service
+- name: Reload tomcat
   systemd:
     name: tomcat
     state: reloaded
