@@ -1,5 +1,5 @@
 [all]
-34.238.252.230  ansible_user=ubuntu
+34.252.203.59  ansible_user=ubuntu
 
 [all:vars]
-tomcat_version="8.5.47"
+tomcat_version="8.5.83"
